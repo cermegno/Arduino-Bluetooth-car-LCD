@@ -1,5 +1,5 @@
 //This program is used to control a robot car using a app that communicates with Arduino trough a bluetooth module
-//The hardware includes an Arduino Uno, a Motor Shield v1, a Bluetooth module (on Tx/Rx) and an LED on PIN A3
+//The hardware includes an Arduino Uno, a Motor Shield v1, a Bluetooth module, an I2C LCD 1602 screen and an LED on PIN A3
 #include <Wire.h>
 #include <LiquidCrystal_PCF8574.h>
 LiquidCrystal_PCF8574 lcd(0x27);  // set the LCD address to 0x27 for a 16 chars and 2 line display
